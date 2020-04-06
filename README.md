@@ -8,7 +8,11 @@ Jadi, dengan website ini, kamu bisa membuat website dengan cepat. Cepat banget y
 
 Tapi, ini untuk pemakaian _offline_ aja ya. Kalau untuk online nggak bagus karena **banyak celah keamanan** di website ini.
 
-Dan kenapa aku menggunakan PHP, nggak Node JS? Tentu karena biaya hosting yang murah (kalau mau dihosting) dan mudah penginstalannya mudah
+Dan kenapa aku menggunakan PHP, nggak Node JS? Tentu karena penginstalannya mudah. Cukup download php aja lalu taroh di C: atau kalau pakai Linux, cukup `apt install php`. Kalau Node JS kan harus pakai internet untuk download package-packagenya.
+
+## Tanpa `.htaccess`
+
+Karena nggak pakai htaccess, jadi bisa pakai PHP built in.
 
 ## Getting started
 

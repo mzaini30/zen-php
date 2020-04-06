@@ -25,7 +25,6 @@ if (substr($link, 0, 5) !== "/api/"){
   }
 
 } else {
-  header("Content-Type: application/json");
   $method = $_SERVER["REQUEST_METHOD"];
   $data = ($method == "GET") ? $_GET : $_POST;
   $olah_link = explode("?", $link);
