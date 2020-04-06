@@ -2,6 +2,8 @@
 
 include 'vendor/autoload.php';
 
+use JsonServer\JsonServer;
+
 $link = $_SERVER["REQUEST_URI"];
 
 // jika tidak dimulai dari /api
@@ -25,12 +27,14 @@ if (substr($link, 0, 5) !== "/api/"){
   }
 
 } else {
+  
   $method = $_SERVER["REQUEST_METHOD"];
   $data = ($method == "GET") ? $_GET : $_POST;
   $olah_link = explode("?", $link);
   $link = $olah_link[0];
-  // print_r($link);
-  // print_r($data);
-  $jsonServer = new JsonServer\JsonServer;
+  // var_dump($link);
+  // var_dump($data);
+  $jsonServer = new JsonServer;
   $jsonServer->handleRequest($method, $link, $data)->send();
+  
 }
