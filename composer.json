@@ -1,0 +1,12 @@
+{
+    "name": "mzaini30/latihan-composer",
+    "authors": [
+        {
+            "name": "mzaini30",
+            "email": "muhzaini30@gmail.com"
+        }
+    ],
+    "require": {
+        "zlob/php-json-server": "^1.1"
+    }
+}
