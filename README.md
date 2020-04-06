@@ -26,6 +26,22 @@ Menggunakan format JSON. Letaknya di `vendor/zlob/php-json-server/db/db.json`
 
 Untuk lebih lengkapnya, baca aja [Zlob/php-json-server](https://github.com/Zlob/php-json-server/blob/master/README.md)
 
+### Metode POST
+
+Contoh:
+
+```
+situs.com/api/siswa?nama=Zen&alamat=Samarinda
+```
+
+Kalau cara yang lain untuk POST ini belum kucoba
+
+Mungkin kalau di jQuery bisa pakai:
+
+```javascript
+$('.form').serialize()
+```
+
 ## Menggunakan Pug (untuk development)
 
 Letakkan file-file Pugmu di folder `pug`. Lalu, dia akan menggenerate ke folder `public` jika kita menjalankan `./dev.sh`
@@ -60,5 +76,6 @@ situs.com/public/gambar.jpg
 
 - [ ] Upload file
 - [ ] QR Code generator
-- [ ] Memperbaiki `?` di JSON Server yang nggak jalan
+- [ ] Memperbaiki query metode GET
+- [x] Cek metode POST
 - [ ] Token Auth

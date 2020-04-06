@@ -29,10 +29,13 @@ if (substr($link, 0, 5) !== "/api/"){
 } else {
   
   $method = $_SERVER["REQUEST_METHOD"];
-  // $data = ($method == "GET") ? $_GET : $_POST;
-  $data = isset($_GET) ? $_GET : $_POST;
+  $data = $_REQUEST;
+
+  // $data = [];
+
   $olah_link = explode("?", $link);
   $link = $olah_link[0];
+
   // var_dump($link);
   // var_dump($data);
   $jsonServer = new JsonServer;
