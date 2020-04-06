@@ -1,1 +1,1 @@
-php -S localhost:2020 routes.php
+php -S localhost:2020
