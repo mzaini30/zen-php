@@ -57,3 +57,4 @@ situs.com/public/gambar.jpg
 - [ ] Upload file
 - [ ] QR Code generator
 - [ ] Memperbaiki `?` di JSON Server yang nggak jalan
+- [ ] Token Auth
