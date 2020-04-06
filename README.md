@@ -1,4 +1,4 @@
 ## TODO 
 
-- [] Upload file
-- [] QR Code generator
+- [ ] Upload file
+- [ ] QR Code generator
