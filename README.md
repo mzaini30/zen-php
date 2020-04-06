@@ -1,2 +1,4 @@
-# zen-php
-Fast build website
+## TODO 
+
+- [] Upload file
+- [] QR Code generator
