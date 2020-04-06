@@ -4,7 +4,9 @@ Tools supaya cepat membuat website
 
 ## Latar belakang
 
-Jadi, dengan website ini, kamu bisa membuat website dengan cepat. Tapi, ini untuk pemakaian offline aja ya. Kalau untuk online nggak bagus karena banyak celah keamanan di website ini.
+Jadi, dengan website ini, kamu bisa membuat website dengan cepat. Cepat banget ya. Beneran. Soalnya, kamu nggak usah dah tuh mikirin REST APInya. Udah jadi otomatis. Bagus banget kan buat kamu yang kebanyakan order minta dibuatkan website?
+
+Tapi, ini untuk pemakaian _offline_ aja ya. Kalau untuk online nggak bagus karena **banyak celah keamanan** di website ini.
 
 Dan kenapa aku menggunakan PHP, nggak Node JS? Tentu karena biaya hosting yang murah (kalau mau dihosting) dan mudah penginstalannya mudah
 

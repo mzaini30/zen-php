@@ -28,7 +28,10 @@ if (substr($link, 0, 5) !== "/api/"){
   header("Content-Type: application/json");
   $method = $_SERVER["REQUEST_METHOD"];
   $data = ($method == "GET") ? $_GET : $_POST;
-  $data = (object) $data;
+  $olah_link = explode("?", $link);
+  $link = $olah_link[0];
+  // print_r($link);
+  // print_r($data);
   $jsonServer = new JsonServer\JsonServer;
   $jsonServer->handleRequest($method, $link, $data)->send();
 }
